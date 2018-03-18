@@ -7,6 +7,12 @@
     
     Initialized empty Git repository in /home/jschoi/work/HRI-20069-W2-github/.git/
   ````
+
+For your convenience, do this alias for git log.
+  ```
+    $ git config --global alias.log0 "log --branches --decorate --graph --oneline"
+  ```
+  
 Make a new file called master.txt and add a line typing "01".
   ```
     $ vi master.txt
@@ -32,4 +38,3 @@ Add a remote repository using github.com assuming you already have a repository 
      * [new branch]      master -> master
     Branch master set up to track remote branch master from origin.
   ```
-  
